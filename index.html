@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare - Clínica Veterinaria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 10px 20px;
+            padding: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 10px solid #ddd;
+        }
+        header img {
+            height: 180px;
+
+        }
+        nav a {
+            margin: 0 88px;
+            text-decoration: none;
+            color: #333; 
+        }
+        .promotions {
+            text-align: center;
+            padding: 2px 0 100px 0;
+            background-color: #77b4d8;
+        }
+        .promotions h1 {
+            margin-bottom: 30px;
+            font-size: 100px;
+        }
+        .promo,.promo_2 {
+            display: inline-block;
+            margin: 0 20px;
+            padding: 80px;
+            border-radius: 50%;
+            background-color: #d8a1d1;
+            color: white;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border: 10px solid white;
+            animation: promo 5s infinite ease-in-out;
+        }
+        @keyframes promo {
+            0% {transform: rotateZ(0);}
+            50% {transform: rotateZ(10deg);}
+            100% {transform: rotateZ(0);}
+        }
+       .promo{
+            position: absolute;
+            top: 19em;
+            left: 7em;
+            font-size: 30px;
+       }
+       .promo_2{
+        position: absolute;
+        top: 16em;
+        left: 22em;
+        font-size: 30px;
+       }
+       #gatoperro{
+        height: 480px;
+        position: relative;
+        left: 500px;
+        border-radius: 20px;
+        animation: promo 5s infinite ease-in-out;
+       }
+       @keyframes perrogato {
+            0% {transform: rotateZ(0);}
+            50% {transform: rotateZ(10deg);}
+            100% {transform: rotateZ(0);}
+        }
+
+        footer {
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #ddd;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        h1 {
+            color: yellow;
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: white;
+            background-color: #C99CD6;    
+        }  
+        footer img {
+          width: 35px;
+        }
+    
+    </style>   
+    <header>
+        <img src="img/image (3).png" alt="PetCare Logo">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="equipomedico.html">Equipo Médico</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="testimonios.html">Testimonios</a>
+        </nav>
+    </header>
+    <section class="promotions">
+        <h1>PROMOCIONES</h1>
+        <div class="promo">
+            <p>DESPARACITACIÓN<br>TOTALMENTE GRATIS</p>
+        </div>
+        <div class="promo_2">
+            <p>50% DESCUENTO<br>PRIMER CHEQUEO GENERAL</p>
+        </div>
+        <img id="gatoperro" src="img/gato-alegre-cachorro-blanco_1044916-3145.avif" alt="Dog and Cat">
+    </section>
+
+    <footer>
+        <footer id="mainfooter" class="txt-center"></footer>
+        <p>Copyright © 2024 - Laura Sofía Durán Navarro</p>
+                    <a href="https://www.instagram.com/sofi011807/" class="twitter-follow-button"data-show-count=
+                    > <img src="img/instagram.png" alt=""></a>
+                    <script async src="https://www.instagram.com/" charset="UTF-8"></script>
+                <a href="https://mail.google.com/mail/u/0/#inbox" class="twitter-follow-button"data-show-count=
+                    > <img src="img/gmail.png" alt=""></a>
+                    <script async src="https://myaccount.google.com/?hl=es&utm_source=OGB&utm_medium=act" charset="UTF-8"></script>
+                <a href="https://wa.me/3106693012" class="twitter-follow-button"data-show-count=
+                    > <img src="img/whats.png" alt=""></a>
+                    <script async src="https://web.whatsapp.com/" charset="UTF-8"></script>
+    </footer>
+</body>
+</html>
